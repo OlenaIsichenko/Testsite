@@ -1,0 +1,14 @@
+.btn {
+    display: inline-block;
+    margin-left: 47%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#tests, #text {
+    font-family: "Comic Sans MS";
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+    color: darkgreen;
+}
