@@ -6,12 +6,8 @@ class MyArrayTest extends TestCase
 {
     public function testNotEmpty()
     {
-
-
         $h = new MyArray();
         $c = $h -> getArray();
-
-        print_r($c);
 
         $this->assertNotEmpty($c);
         $this->assertNotNull($c);
@@ -51,7 +47,6 @@ class MyArrayTest extends TestCase
      */
     public function testArrayHasKey(array $c)
     {
-
         $this->assertArrayHasKey('key3', $c);
         array_unshift($c, ['a'=>'red','b'=>"green"]);
         $this->assertArrayNotHasKey('key5', $c);
